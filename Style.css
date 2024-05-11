@@ -1,0 +1,150 @@
+/*<!-- Estilos personalizados -->*/
+
+body {
+    background-color: #ffffff; /* Cambiar fondo de página */
+    color: #333; /* Texto negro */
+  }
+      .navbar {
+          top: 0;
+          width: 100%;
+          background-color: #a09462; /* Color del navbar */
+      }
+      .navbar-nav .nav-link {
+          color: #fff !important; /* Cambiar color del texto del navbar */
+      }
+
+      .producto {
+        margin-top: 20px; /* Espacio entre productos */
+        margin-bottom: 20px; /* Espacio entre productos */
+        border: 3px solid #ccc; /* Borde de 2 píxeles sólido de color gris claro */
+        padding: 10px; /* Espacio interno dentro del contenedor */
+        border-radius: 8px; /* Borde redondeado */
+        }
+       .cuadro-productos {
+        border: 2px solid #ccc; /* Borde de 2 píxeles sólido de color gris claro */
+        padding: 10px; /* Espacio interno dentro del contenedor */
+        border-radius: 8px; /* Borde redondeado */
+         }
+        .producto img {
+          max-width: 100%; /* Ajustar imagen al ancho del contenedor */
+          height: auto;
+        }
+        .producto h4 {
+          font-size: 1.2rem; /* Tamaño de fuente del nombre del producto */
+        }
+        .producto p {
+          font-size: 1rem; /* Tamaño de fuente del precio */
+        }
+
+        h1{
+          text-align: left;
+        
+        }
+          
+          input[type="text"], input[type="email"], select {
+            width: 100%;
+            margin-bottom: 10px;
+          }
+        
+          .formulario {
+            width: 500px;
+            margin: auto;
+            flex-direction: column;
+            color: #333; /* Color de texto*/
+            font-family: Arial, sans-serif; /* Familia de fuentes*/
+            font-size: 20px; /* Tamaño de fuente */
+            text-rendering: auto;
+            text-align: auto;
+          }
+
+          .mensaje-exito{
+            text-align: center;
+          }
+          
+          
+          input, textarea {
+              padding: 1px;
+             /* margin-bottom: 15px; /*Se tiene que borrar para alinear la barra de navegacion coincida*/
+              border-radius: auto;
+             border: 1px solid #ccc;}
+             /*border-radius : auto;*/
+          /*}*/
+          
+          input[type="submit"] {
+              background-color: #65a2aa;/*Boton enviar*/
+             color: white;
+             width: 100%;
+             margin-top: 10px;
+          }
+          
+          input[type="submit"]:hover {
+              background-color: #D9B5A0;/*Sobre el boton enviar*/
+          }
+
+          input[type="text"],
+          
+          input[type="email"],
+          
+          select {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+          }
+          
+          textarea {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+          }
+          
+            .mensaje-exito {
+            display: none;
+            color: green;
+          }
+          
+          .mensaje-error {
+            display: none;
+            color: red;
+          }
+
+          /* Modal Header */
+.modal-header {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+/* Modal Body */
+.modal-body {
+  padding: 2px 16px;
+}
+
+/* Modal Footer */
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+
+/* Add Animation */
+@keyframes animatetop {
+  from {top: -300px; opacity: 0}
+  to {top: 0; opacity: 1}
+}

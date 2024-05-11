@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Turismo Extremo Sur</title>
+  <link rel="stylesheet" href="StyleDetalle.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+<!-- Barra de navegación -->
+<nav class="navbar navbar-expand-xl navbar-dark">
+  <div class="container">
+    <a class="navbar-brand" href="Nuestros Servicios.html">Tursimo Extremo Sur</a>
+    <!-- Formulario de búsqueda -->
+    <form class="d-flex mx-auto">
+      <input class="form-control me-2" type="search" placeholder="Buscar productos..." aria-label="Search">
+      <button class="btn btn-outline-light" type="submit">Buscar</button>
+    </form>
+
+    <!-- Menú de navegación -->
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="Quienes.html"><i class="fas fa-user me-1"></i>¿Quienes Somos?</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Nuestros Servicios.html"><i class="fas fa-map me-1"></i>Nuestros Servicios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Clima.html"><i class="fas fa-sun me-2"></i>Consulta el Clima</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="Contactanos.html"><i class="fas fa-address-book me-2"></i>Contactanos</a>
+          </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="product">
+          <div class="row">
+            <div class="col-md-5">
+              <div class="image">
+                <img src="Parrillar.jpg" alt="Parrillar">
+              </div>
+            </div>
+            <div class="col-md-7">
+              <div class="details">
+                <h2>Parrillar</h2>
+                <p> La Reserva Nacional Laguna Parrillar es un recinto de patrimonio forestal de Chile que se encuentra bajo la protección de la Conaf (Corporación Nacional Forestal).
+
+                  Se encuentra ubicada en la Región de Magallanes y de la Antártica Chilena, a unos 52 km al sur de la comuna de Punta Arenas aproximadamente. Ostenta una superficie de 20.814 hectáreas, en la que se destaca la laguna del Parrillar, de la que el parque toma el nombre, la cual es la principal reserva de agua de Punta Arenas.
+                  
+                  Dentro de sus características principales se encuentra la gran cantidad de flora y fauna silvestre que posee el recinto. Además, cuenta con áreas habilitadas para el camping y sectores de merienda. 
+                  También existen senderos de excursión guiados dentro de la Reserva Nacional y se permite practicar la Pesca deportiva al interior de esta.</p>
+                <h5>Precio: $49.990</h5>
+                <h5>Cupos disponibles: 10</h5>
+                <button class="btn btn-primary">Comprar</button>
+                <button id="mostrarMapaBtn" class="btn btn-primary">Mostrar Mapa</button>
+                <b></b>
+                <p></p>
+                <div id="mapaContainer" class="mapa-oculto" style="height: 400px;">
+                  <iframe id="mapaIframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1992.5439203881527!2d-71.2792112!3d-53.4225768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbdad7716ca1bbdd3%3A0xf96c74388e809c5c!2sReserva%20Nacional%20Laguna%20Parrillar!5e0!3m2!1sen!2scl!4v1620551579435!5m2!1sen!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>                
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- Productos -->
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-md-3 producto mx-auto">
+      <img src="MonteTarn.jpg" alt="MonteTarn">
+      <h4 class="text-center mt-3"><a href="MonteTarn.html" style="color: #333;">Monte Tarn</a></h4><!--Para el link con el nombre-->
+      <p class="text-center"><a href="MonteTarn.html"></a></p>
+    </div>
+
+    <div class="col-md-3 producto mx-auto">
+      <img src="Zapador.jpg" alt="Zapador">
+      <h4 class="text-center mt-3"><a href="Zapador.html" style="color: #333;">Zapador</a></h4>
+    </div>
+  </div>
+</div>
+
+
+<script src="Mapa.js"></script>
+
+
+</body>
+</html>

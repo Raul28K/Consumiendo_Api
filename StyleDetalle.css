@@ -1,0 +1,127 @@
+body {
+    background-color: #ffffff; /* Cambiar fondo de página */
+    color: #333; /* Texto negro */
+
+  }
+  .navbar {
+    top: 0;
+    width: 100%;
+    background-color: #a09462; /* Color del navbar */
+}
+.navbar-nav .nav-link {
+    color: #fff !important; /* Cambiar color del texto del navbar */
+}
+  .btn-primary {
+  background-color: #65a2aa; /* Cambia el color de fondo de los botones a naranja */
+  border-color: #65a2aa; /* Cambia el color del borde de los botones a naranja */
+  }
+
+ .btn-primary:hover {
+  background-color: #5a8c92; /* Cambia el color de fondo de los botones al pasar el cursor a un tono más oscuro de naranja */
+  border-color: #5a8c92; /* Cambia el color del borde de los botones al pasar el cursor a un tono más oscuro de naranja */
+  }
+  .producto {
+      margin-top: 20px; /* Espacio entre carrusel y productos */
+      margin-bottom: 20px; /* Espacio entre productos */
+      border: 2px solid #ccc; /* Agregar borde a los productos */
+      border-radius: 5px; /* Agregar bordes redondeados a los productos */
+      padding: 10px; /* Agregar relleno a los productos */
+    }
+    .producto img {
+      max-width: 100%; /* Ajustar imagen al ancho del contenedor */
+      height: auto;
+    }
+    .producto h4 {
+      font-size: 1.2rem; /* Tamaño de fuente del nombre del producto */
+    }
+    .producto p {
+      font-size: 1rem; /* Tamaño de fuente del precio */
+    }
+    /*<!--Estilo de la descripcion del producto-->*/
+  
+        body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .product {
+        display: flex;
+        margin-top: 20px; /* Espacio entre productos */
+        margin-bottom: 20px; /* Espacio entre productos */
+        border: 3px solid #ccc; /* Borde de 2 píxeles sólido de color gris claro */
+        padding: 10px; /* Espacio interno dentro del contenedor */
+        border-radius: 8px; /* Borde redondeado */
+        overflow: hidden;
+    }
+    
+    .image {
+        flex: 1;
+    }
+    
+    .image img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .details {
+        flex: 1;
+        padding: 20px;
+    }
+    
+    .mapa-oculto {
+      display: none;
+    }
+    .mapa-visible {
+      display: block;
+    }
+    
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Header */
+.modal-header {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+/* Modal Body */
+.modal-body {padding: 2px 16px;}
+
+/* Modal Footer */
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@keyframes animatetop {
+  from {top: -300px; opacity: 0}
+  to {top: 0; opacity: 1}
+}
